@@ -41,4 +41,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo The first step is: ${{ env.FIRST_STEP }}
-          echo The Job's env is: ${{ env.WORKSPACE_NEW_FILE }}
+          echo The Job env is: ${{ env.WORKSPACE_NEW_FILE }}
