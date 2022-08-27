@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     # env
     env:
-      WORKSPACE_NEW_FILE: ${{ env.GITHUB_WORKSPACE }}/sampleOutput.txt
+      WORKSPACE_NEW_FILE: ${{ GITHUB_WORKSPACE }}/sampleOutput.txt
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
