@@ -29,7 +29,7 @@ jobs:
       - name: Run a one-line script
         env:
           FIRST_STEP: first😄
-          WORKSPACE_NEW_FILE: ${{ GITHUB_WORKSPACE }}/sample.txt
+          WORKSPACE_NEW_FILE: ${{ env.GITHUB_WORKSPACE }}/sample.txt
         run: |
           echo Hello, world!
           echo Workspace new file path: $WORKSPACE_NEW_FILE
